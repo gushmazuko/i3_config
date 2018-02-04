@@ -31,6 +31,8 @@ font pango:monospace 8.5
 exec feh --bg-scale ~/Wallpapers/fbi.jpg
 exec compton -c -C -z -m 0.90 -i 0.65 -b --shadow-blue 1 --shadow-green 0.7
 
+exec --no-startup-id nm-applet
+
 #Adding hotkeys
 
 bindsym $mod+Shift+t exec thunar
