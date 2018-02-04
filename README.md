@@ -30,3 +30,12 @@ mkdir -p build && cd build/
 make
 sudo make install
 ```
+
+## Copy configurations
+```bash
+cd
+apt install feh compton
+git clone https://github.com/gushmazuko/i3_config.git
+cp -r i3_config/.config/i3/ ~/.config/
+cp -r i3_config/etc/ /
+```
