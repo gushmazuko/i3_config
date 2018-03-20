@@ -177,8 +177,8 @@ mode "resize" {
 }
 
 #gups
-gaps inner 5
-gaps outer 0
+# gaps inner 5
+# gaps outer 0
 
 
 assign [class="Firefox-esr"] $w3
